@@ -1,0 +1,131 @@
+html {
+
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+p {
+
+    font-size: 14px;
+
+}
+
+.producto {
+
+    /* https://lenguajecss.com/css/maquetacion-y-colocacion/flexbox/ */
+    /* display: flex; */
+    display: inline-flex;
+    /*flex-wrap: nowrap;*/
+    /*flex-direction: column;*/
+    /*Se puede añadir la directiva flex-wrap y flex-direction en una sola linea llamado flex-flow*/
+    /* flex-flow: <flex-direction> <flex-wrap>; */
+    /*flex-flow: row wrap;*/
+    flex-flow: row nowrap;
+    /*Se puede añadir la directiva  row-gap y column-gap en uno con un gap*/
+    /* row-gap: normal;
+    column-gap: normal; */
+    /* gap: 4px 8px; */
+    /*Se puede añadir la directiva de align-content y de justify-content en una sola linea llamado: place-content*/
+    /* justify-content: center;
+    align-content: center; */
+    place-content: center center;
+    border-radius: 3%;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 650px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.clase-foto {
+
+    display: flex;
+
+
+}
+
+
+.unico-item {
+
+    font-family: 'Fraunces', serif;
+    color: hsl(228, 12%, 48%);
+    align-items: center;
+    padding: 50px;
+
+}
+
+.precios{
+
+    color: hsl(228, 12%, 48%);
+    align-items: center;
+    padding: 50px;
+
+}
+
+#tipo{
+
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+}
+
+
+#precio {
+
+    color: hsl(158, 36%, 37%);
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#tachado{
+
+    font-size: 40px;
+
+}
+
+#perfume {
+
+    border-radius: 25px 0 0 25px;
+
+}
+
+#titulo {
+
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 50px;
+
+}
+
+
+#btn {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10%;
+    margin-left: 15px;
+    margin-top: 41px;
+    padding-left: 10%;
+    padding-right: 44%;
+    font-family: 'Fraunces', serif;
+    border: none;
+}
+
+#descripcion{
+
+    font-size: 30px;
+
+}
